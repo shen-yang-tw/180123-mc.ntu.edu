@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-TW" xml:lang="zh-Hant">
+<!-- <html xml:lang="zh-Hant" lang="zh-Hant"> -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>臺大醫學院入口網</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
+  <link rel="stylesheet" href="css/components/accordion.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/dotnav.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/sticky.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/slider.min.css" />
+  <link rel="stylesheet" href="css/components/slidenav.min.css" />
+  <link rel="stylesheet" href="css/components/slideshow.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/monthly.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" class="page fullViewH uk-padding-remove">
+  <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="uk-icon-chevron-up"></i></a></div>
+  <div id="header" class="uk-position-z-index" data-uk-sticky="{top:-50, animation: 'uk-animation-slide-bottom'}">
+    <div class="bg_primary bg_img box_shadow uk-padding-remove">
+      <div class="uk-container uk-container-center">
+        <div id="logoBar" class="marginTB_medium uk-grid uk-grid-small">
+          <div class="uk-width-2-5 uk-width-large-1-5 uk-width-xlarge-2-6 uk-padding-remove"><a class="logo" href="index.html"><img alt="台大醫學院LOGO" src="img/logo.png"></a></div>
+          <div class="uk-width-4-5 uk-width-xlarge-4-6 uk-visible-large">
+            <ul class="topList uk-text-right">
+              <li class="uk-display-inline-block"><a href="#">網站導覽</a></li>
+              <li class="uk-display-inline-block"><a href="#">行政單位</a></li>
+              <li class="uk-display-inline-block"><a href="#">臺灣大學</a></li>
+              <li class="uk-display-inline-block"><a href="#">臺大醫院</a></li>
+              <li class="uk-display-inline-block"><a href="#">醫學圖書館</a></li>
+              <li class="uk-display-inline-block"><a href="#">捐款</a></li>
+              <li class="uk-display-inline-block"><a href="#">聯繫我們</a></li>
+              <li class="uk-display-inline-block"><a href="#">English</a></li>
+              <li class="fontsize uk-display-inline-block">
+                <ul class="uk-tab uk-align-right uk-margin-remove" data-uk-tab>
+                  <li class="small uk-active"><a class="uk-margin-small-right" href="#" title="small">A</a></li>
+                  <li class="medium"><a class="uk-margin-small-right" href="#" title="medium">A+</a></li>
+                  <li class="large"><a class="uk-margin-small-right" href="#" title="large">A++</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="btn_canvas" class="uk-width-3-5 uk-vertical-align uk-text-right uk-hidden-large">
+            <div class="uk-vertical-align-middle"><a href="#" data-uk-offcanvas="{target:'#offcanvas', mode:'slide'}"><i class="uk-icon-bars uk-icon-medium color_white"></i></a></div>
+          </div>
+        </div>
+        <!-- #logoBar -->
+      </div>
+    </div>
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+          <li class="uk-parent">
+            <a href="#">關於醫學院</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">醫學院簡介</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">組織圖</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">沿革</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">歷屆院長</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">現任院長</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">校地環境</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">前瞻與展望</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">學術研究</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">教學發展</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">學生活動</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">楓城之美</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">院徽</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">最新消息</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">最新消息</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">最新消息</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">重要活動</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學院公佈欄</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">活動資訊</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">國際交流</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">學術單位</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">學系</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">牙醫學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">藥學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">護理學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學檢驗暨生物技術學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">職能治療學系</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">物理治療學系</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">學科</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">解剖學暨細胞生物學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">生物化學暨分子生物科學</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">寄生蟲學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">微生物學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">藥理學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">病理學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">法醫學科</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">內科</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">研究中心</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">研究中心</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫療器材與醫學影像研究所</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">癌症研究中心</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">藥物研究中心</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">整合性研究中心(校級)</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">基因體醫學研究中心</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">國際級研究中心</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">跨國頂尖癌症研究中心</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">醫學院第一共同研究室</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學院第一共同研究室</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">教育資源</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">醫學教育</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學教育</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">共同教育及教師培訓中心</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">醫學院課程地圖</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">圖書分館</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">圖書分館</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">國際交流</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">國際交流</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">國際交流</a></li>
+            </ul>
+          </li>
+          <li class="uk-parent">
+            <a href="#">相關連結</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">校友連結</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">臺大景福基金會</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">校友會聯絡人名單</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">臺大景福校友會(FaceBook)</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">臺灣大學校友聯絡室</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">校友會歷史</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">校友會歷史</a></li>
+              <li class="uk-nav-divider"></li>
+              <li class="uk-nav-header">其他連結</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">臺灣大學首頁</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">附設醫院首頁</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">癌醫中心</a></li>
+            </ul>
+          </li>
+          <li class="uk-nav-divider"></li>
+          <li><a href="#">網站導覽</a></li>
+          <li><a href="#">行政單位</a></li>
+          <li><a href="#">臺灣大學</a></li>
+          <li><a href="#">臺大醫院</a></li>
+          <li><a href="#">醫學圖書館</a></li>
+          <li><a href="#">捐款</a></li>
+          <li><a href="#">課程地圖</a></li>
+          <li><a href="#">聯繫我們</a></li>
+          <li><a href="#">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- #offcanvas -->
+    <div class="bg_dark uk-padding-remove">
+      <div id="dropdownMenu" style="min-height: 20px;">
+        <div class="uk-container uk-container-center">
+          <div class="uk-grid uk-grid-collapse" data-uk-grid-margin>
+            <div id="dropMenuL" class="dropMenu uk-width-large-7-10">
+              <ul class="uk-nav uk-width-1-1 uk-visible-large">
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">關於醫學院</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">醫學院簡介</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">組織圖</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">沿革</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">歷屆院長</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">現任院長</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">校地環境</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">前瞻與展望</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">學術研究</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">教學發展</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">學生活動</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">楓城之美</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">院徽</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-parent">
+                              <a class="color_white bg_transparent" href="#">Parent1-1</a>
+                              <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-parent">
+                                  <a class="color_white bg_transparent" href="#">Parent1-1-1</a>
+                                  <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-parent">
+                                      <a class="color_white bg_transparent" href="#">Parent1-1-1-1</a>
+                                      <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">最新消息</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">最新消息</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">最新消息</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">重要活動</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學院公佈欄</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">活動資訊</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">國際交流</a></li>
+                      </ul>
+                      <p class="color_white">活動資訊</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">活動資訊</a></li>
+                      </ul>
+                      <p class="color_white">國際交流</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">國際交流</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">學術單位</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">學系</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">牙醫學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">藥學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">護理學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學檢驗暨生物技術學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">職能治療學系</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">物理治療學系</a></li>
+                      </ul>
+                      <p class="color_white">學科</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">解剖學暨細胞生物學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">生物化學暨分子生物科學</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">寄生蟲學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">微生物學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">藥理學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">病理學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">法醫學科</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">內科</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">研究中心</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">研究中心</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫療器材與醫學影像研究所</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">癌症研究中心</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">藥物研究中心</a></li>
+                      </ul>
+                      <p class="color_white">整合性研究中心(校級)</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">基因體醫學研究中心</a></li>
+                      </ul>
+                      <p class="color_white">國際級研究中心</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">跨國頂尖癌症研究中心</a></li>
+                      </ul>
+                      <p class="color_white">醫學院第一共同研究室</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學院第一共同研究室</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">教育資源</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">醫學教育</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學教育</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">共同教育及教師培訓中心</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">醫學院課程地圖</a></li>
+                      </ul>
+                      <p class="color_white">圖書分館</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">圖書分館</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">國際交流</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">國際交流</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">國際交流</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">相關連結</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">校友連結</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">臺大景福基金會</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">校友會聯絡人名單</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">臺大景福校友會(FaceBook)</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">臺灣大學校友聯絡室</a></li>
+                      </ul>
+                      <p class="color_white">校友會歷史</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">校友會歷史</a></li>
+                      </ul>
+                      <p class="color_white">其他連結</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">臺灣大學首頁</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">附設醫院首頁</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">癌醫中心</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+              </ul>
+            </div>
+            <!-- #dropMenuL -->
+            <div class="uk-width-large-3-10 uk-position-relative">
+              <ul id="dropMenuR" class="uk-nav uk-border-rounded uk-width-small-2-3 uk-width-medium-1-2 uk-width-large-1-1 uk-grid uk-grid-collapse uk-grid-width-1-4 uk-position-absolute uk-position-z-index bg_secondary">
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown="{justify:'#dropMenuR'}">
+                  <a class="fullWidth color_white marginTB_medium uk-padding-remove uk-text-center" href="#">
+                  <i class="fas fa-search fa-fw fa-2x"></i>
+                  <div class="uk-thumbnail-caption color_white">搜尋</div>
+                </a>
+                  <div class="uk-dropdown uk-dropdown-bottom uk-border-rounded">
+                    <p class="color_white">臺灣大學醫學院站內搜尋</p>
+                    <div class="uk-form">
+                      <div class="uk-grid uk-grid-small" data-uk-margin>
+                        <div class="uk-width-3-4">
+                          <input type="text" placeholder="Search NTUCM" class="uk-width-1-1">
+                        </div>
+                        <div class="uk-width-1-4"><a class="btn_primary uk-button uk-width-1-1" href="#"><i class="uk-icon-search"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown="{justify:'#dropMenuR'}">
+                  <a class="fullWidth color_white marginTB_medium uk-padding-remove uk-text-center" href="#">
+                  <i class="fas fa-user fa-fw fa-2x"></i>
+                  <div class="uk-thumbnail-caption color_white">找老師</div>
+                </a>
+                  <div class="uk-dropdown uk-dropdown-bottom uk-border-rounded">
+                    <p class="color_white">臺大學術庫教師資料搜尋</p>
+                    <div class="uk-form" data-uk-margin>
+                      <label class="uk-form-label color_white">單位</label>
+                      <input type="text" placeholder="Dept name" class="uk-width-1-1 uk-margin-small-bottom">
+                      <label class="uk-form-label color_white">姓名</label>
+                      <input type="text" placeholder="中英文姓名 name" class="uk-width-1-1 uk-margin-small-bottom">
+                      <a class="btn_primary uk-button uk-width-1-1" href="#"><i class="uk-icon-search"></i></a>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown="{justify:'#dropMenuR'}">
+                  <a class="fullWidth color_white marginTB_medium uk-padding-remove uk-text-center" href="#">
+                  <i class="fas fa-university fa-fw fa-2x"></i>
+                  <div class="uk-thumbnail-caption color_white">找系所</div>
+                </a>
+                  <div class="uk-dropdown uk-dropdown-bottom uk-border-rounded">
+                    <p class="color_white">各系所單位搜尋</p>
+                    <div class="uk-form" data-uk-margin>
+                      <label class="uk-form-label color_white">單位名稱</label>
+                      <input type="text" placeholder="Detp name" class="uk-width-1-1 uk-margin-small-bottom">
+                      <a class="btn_primary uk-button uk-width-1-1" href="#"><i class="uk-icon-search"></i></a>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown="{justify:'#dropMenuR'}">
+                  <a class="fullWidth color_white marginTB_medium uk-padding-remove uk-text-center" href="#">
+                  <i class="fas fa-address-book fa-fw fa-2x" data-fa-transform="flip-h"></i>
+                  <div class="uk-thumbnail-caption color_white">申請入學</div>
+                </a>
+                </li>
+                <!-- .uk-button-dropdown -->
+              </ul>
+            </div>
+            <!-- #dropMenuR -->
+          </div>
+        </div>
+      </div>
+      <!-- #dropdownMenu -->
+    </div>
+  </div>
+  <!-- #header -->
+  <div class="bg_grey padding_xlarge">
+    <div class="uk-container uk-container-center">
+      <ul class="uk-breadcrumb">
+        <li><a class="color_primary" href="#">首頁</a></li>
+        <li class="uk-active"><span>榮譽榜</span></li>
+      </ul>
+      <div class="card bg_white uk-panel uk-panel-box box_shadow" style="min-height: 600px">
+        <div class="font_resize">
+          <h4 class="underline padding_medium">榮譽榜</h4>
+          <ol class="listDecimalCh">
+            <li><strong>公告目的</strong>：為瞭解臺大醫學校區各單位發表於SCI及SSCI優良期刊論文情形，並鼓勵院區研究發展，院方指示由本館（國立臺灣大學醫學圖書 館）定期檢索、製作並公告論文發表榮譽榜。
+            </li>
+            <li><strong>公告範圍</strong>：以臺大醫學院、臺大公衛學院或臺大醫院為作者單位，發表於最新Journal Citation Reports （簡稱JCR）SCI或SSCI各領域IF值 排名<em>前15%</em>的期刊被Web of Science（簡稱WoS）資料庫收錄的文獻。</li>
+            <li><strong>資料來源及檢索範圍</strong>：資料來源為WoS資料庫，檢索範圍為接續前一個月榮譽榜公告的資料庫更新日期，進行新的一個月份收錄文獻的 檢索。若發表的文獻於當月公告資料庫更新日期之後才被資料庫所收錄，則公告於之後的榮譽榜清單中。
+            </li>
+            <li><strong>期刊清單</strong>：<em>2016 JCR SCI各領域IF值排名前15%期刊清單、2016 JCR SSCI各領域IF值排名前15%期刊清單。(JCR List於2017年10月更新)</em></li>
+            <li><strong>文獻類型</strong>：以WoS資料庫歸類的文獻類型”article”及”review”為主，不包含meeting abstract 、 letter、comment 、editorial material …等其他 型式的文獻。但Nature期刊的”letter”文獻類型等同於”article”，因此包含在公告範圍內。
+            </li>
+            <li><strong>排列方式</strong>：文章係依據期刊的IF值排序，若IF值相同，再按照卷期排序。</li>
+            <li><strong>呈現格式</strong>：依序為期刊IF值之範圍、文章出處、期刊IF值、學科領域擇優百分比、文章篇名、作者發表文章時使用的單位名稱及作者。 其中「作者」以資料庫顯示的英文全名或縮寫呈現（若有疑義部分，以發表的期刊原文為依據），不再譯為中文，並以相同 符號對應於其所屬之「單位名稱」，未標示符號者，為非臺大醫學校區人員。「單位名稱」僅呈現臺大醫學校區的單位，英 文部分取自原文，並譯成中文。
+            </li>
+            <li><strong>公告時間及地點</strong>：每月月初公告前一個月製作的榮譽榜結果於本館網站。</li>
+            <li><strong>聯絡方式</strong>：若您有任何建議或疑問，歡迎與本館推廣服務股鄭英鳳小姐聯絡（院內分機：88730）。</li>
+          </ol>
+        </div>
+        <div class="uk-form uk-margin">
+          <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+            <div class="uk-width-7-10 uk-width-small-6-10">
+              <input class="uk-width-1-1" type="text" title="#" placeholder="請輸入內容">
+            </div>
+            <div class="uk-width-3-10 uk-width-small-4-10 uk-width-medium-2-10">
+              <a href="#" class="btn_primary uk-button uk-width-1-1"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
+            </div>
+            <div class="text_medium_right uk-width-1-2 uk-width-medium-2-10"><a href="#" class="btn_secondary uk-button uk-width-medium-1-1">歷史資料</a></div>
+          </div>
+        </div>
+        <div class="font_resize">
+          <h5 class="item_stick">2018年3月公布臺大醫學校區論文發表榮譽榜</h5>
+          <ol class="listDecimalCh">
+            <li>資料庫更新日期及範圍：2018年 01月05日（回溯前4星期）</li>
+            <li>資料庫收錄時間：2017年12月09日至2018年01月05日期間WoS資料庫所收錄的文獻</li>
+            <li>JCR為2016年版(2017年10月更新)</li>
+            <li>文章出自於JCR各領域IF值排名前15%期刊，清單依據期刊的IF值排序，若IF值相同，再按照卷期排序</li>
+            <li>公告日期：2018年03月01日</li>
+            <li>注意：檔案只限臺大校區網域下載</li>
+          </ol>
+        </div>
+        <ul class="uk-pagination">
+          <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+          <li class="uk-disabled"><span><i class="uk-icon-angle-left"></i></span></li>
+          <li class="uk-active"><span>1</span></li>
+          <li><a href="#">2</a></li>
+          <li><span>...</span></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#"><i class="uk-icon-angle-right"></i></a></li>
+          <li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
+        </ul>
+        <div class="font_resize uk-margin">
+          <div class="hoverBorder padding_medium uk-margin uk-panel uk-panel-box">
+            <ul class="listNoStyl uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3" data-uk-grid-margin>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">期刊IF值之範圍</strong><span class="comma_dot">IF值≧10</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章出處</strong><span class="color_secondary">Journal of Clinical Oncology</span><span>Volume: 5 Issue: 12 Page: 965-974 Published: Dec 2017</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block"><span class="comma_dot">期刊IF值</span><span class="comma_dot">學科領域擇優百分比</span><span class="comma_dot">5年平均IF值</span></strong><span class="comma_dot">IF= 47.831</span>1.28%<span class="comma_dot">5-year</span><span class="comma_dot">IF= 48.082</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章篇名</strong><a class="linkline" href="#">Nivolumab in patients with advanced gastric or gastro-oesophageal junction cancer refractory to, or intolerant of, at least two previous chemotherapy regimens (ONO-4538-12, ATTRACTION-2): a randomised, double-blind, placebo-controlled, phase 3 trial</a></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者發表文章時使用的單位名稱</strong><span class="item_circle">臺大醫院腫瘤醫學部</span><span class="item_circle">臺大醫院雲林分院急診醫學部</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者</strong><span class="item_circle">Kang Yoon-Koo</span><em><span class="item_dot">Yang Chang-Hao</span></em><span class="item_circle">Cheng ChengKuo</span></li>
+            </ul>
+          </div>
+          <div class="hoverBorder padding_medium uk-margin uk-panel uk-panel-box">
+            <ul class="listNoStyl uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3" data-uk-grid-margin>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">期刊IF值之範圍</strong><span class="comma_dot">IF值≧10</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章出處</strong><span class="color_secondary">Journal of Clinical Oncology</span><span>Volume: 5 Issue: 12 Page: 965-974 Published: Dec 2017</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block"><span class="comma_dot">期刊IF值</span><span class="comma_dot">學科領域擇優百分比</span><span class="comma_dot">5年平均IF值</span></strong><span class="comma_dot">IF= 47.831</span>1.28%<span class="comma_dot">5-year</span><span class="comma_dot">IF= 48.082</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章篇名</strong><a class="linkline" href="#">Nivolumab in patients with advanced gastric or gastro-oesophageal junction cancer refractory to, or intolerant of, at least two previous chemotherapy regimens (ONO-4538-12, ATTRACTION-2): a randomised, double-blind, placebo-controlled, phase 3 trial</a></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者發表文章時使用的單位名稱</strong><span class="item_circle">臺大醫院腫瘤醫學部</span><span class="item_circle">臺大醫院雲林分院急診醫學部</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者</strong><span class="item_circle">Kang Yoon-Koo</span><em><span class="item_dot">Yang Chang-Hao</span></em><span class="item_circle">Cheng ChengKuo</span></li>
+            </ul>
+          </div>
+          <div class="hoverBorder padding_medium uk-margin uk-panel uk-panel-box">
+            <ul class="listNoStyl uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3" data-uk-grid-margin>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">期刊IF值之範圍</strong><span class="comma_dot">IF值≧10</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章出處</strong><span class="color_secondary">Journal of Clinical Oncology</span><span>Volume: 5 Issue: 12 Page: 965-974 Published: Dec 2017</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block"><span class="comma_dot">期刊IF值</span><span class="comma_dot">學科領域擇優百分比</span><span class="comma_dot">5年平均IF值</span></strong><span class="comma_dot">IF= 47.831</span>1.28%<span class="comma_dot">5-year</span><span class="comma_dot">IF= 48.082</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">文章篇名</strong><a class="linkline" href="#">Nivolumab in patients with advanced gastric or gastro-oesophageal junction cancer refractory to, or intolerant of, at least two previous chemotherapy regimens (ONO-4538-12, ATTRACTION-2): a randomised, double-blind, placebo-controlled, phase 3 trial</a></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者發表文章時使用的單位名稱</strong><span class="item_circle">臺大醫院腫瘤醫學部</span><span class="item_circle">臺大醫院雲林分院急診醫學部</span></li>
+              <li><strong class="color_white bg_darkGrey paddingL_small paddingR_small uk-display-block">作者</strong><span class="item_circle">Kang Yoon-Koo</span><em><span class="item_dot">Yang Chang-Hao</span></em><span class="item_circle">Cheng ChengKuo</span></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="uk-pagination">
+          <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+          <li class="uk-disabled"><span><i class="uk-icon-angle-left"></i></span></li>
+          <li class="uk-active"><span>1</span></li>
+          <li><a href="#">2</a></li>
+          <li><span>...</span></li>
+          <li><a href="#">10</a></li>
+          <li><a href="#"><i class="uk-icon-angle-right"></i></a></li>
+          <li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- .bg_grey -->
+  <div class="padding_xlarge bg_footer">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-users fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">在線人數</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">1233</h5>
+          </div>
+        </div>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-eye fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">今日瀏覽</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">1233</h5>
+          </div>
+        </div>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-chart-bar fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">到訪人數</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">14330</h5>
+          </div>
+        </div>
+      </div>
+      <div id="sitemap" class="uk-accordion uk-margin" data-uk-accordion="{showfirst: false}">
+        <div class="uk-accordion-title uk-padding-remove uk-margin-remove bg_darkBlack padding_small border_remove">
+          <p class="uk-text-center uk-margin-remove color_white"><i class="fas fa-caret-down fa-fw"></i></i>網站地圖</p>
+        </div>
+        <div class="uk-accordion-content uk-padding-remove uk-margin-top uk-margin-bottom">
+          <div class="color_white uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-4" data-uk-grid-margin>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">醫學院簡介</li>
+                <li class="uk-display-inline-block"><a href="">組織圖</a></li>
+                <li class="uk-display-inline-block"><a href="">沿革</a></li>
+                <li class="uk-display-inline-block"><a href="">歷屆院長</a></li>
+                <li class="uk-display-inline-block"><a href="">現任院長</a></li>
+                <li class="uk-display-inline-block"><a href="">校地環境</a></li>
+                <li class="uk-display-inline-block"><a href="">前瞻與展望</a></li>
+                <li class="uk-display-inline-block"><a href="">學術研究</a></li>
+                <li class="uk-display-inline-block"><a href="">教學研究</a></li>
+                <li class="uk-display-inline-block"><a href="">學生活動</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">最新消息</li>
+                <li class="uk-display-inline-block"><a href="">最新消息</a></li>
+                <li class="uk-display-inline-block"><a href="">重要演講</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">學術單位</li>
+                <li class="uk-display-inline-block"><a href="">學系</a></li>
+                <li class="uk-display-inline-block"><a href="">學科</a></li>
+                <li class="uk-display-inline-block"><a href="">研究所</a></li>
+                <li class="uk-display-inline-block"><a href="">專業學院</a></li>
+                <li class="uk-display-inline-block"><a href="">研究中心</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">研究中心</li>
+                <li class="uk-display-inline-block"><a href="">整合性研究中心(校級)</a></li>
+                <li class="uk-display-inline-block"><a href="">國際級研究中心</a></li>
+                <li class="uk-display-inline-block"><a href="">第一共同研究室</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">行政單位</li>
+                <li class="uk-display-inline-block"><a href="">教學研究行政單位</a></li>
+                <li class="uk-display-inline-block"><a href="">輔助教學之業務單位</a></li>
+                <li class="uk-display-inline-block"><a href="">行政部門知識管理系統</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">國際交流</li>
+                <li class="uk-display-inline-block"><a href="">國際交流</a></li>
+                <li class="uk-display-inline-block"><a href="">國際事務中心</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">圖書分館</li>
+                <li class="uk-display-inline-block"><a href="">圖書分館</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">醫學教育</li>
+                <li class="uk-display-inline-block"><a href="">共同教育及教師培訓中心</a></li>
+                <li class="uk-display-inline-block"><a href="">醫學院課程地圖</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">校友連結</li>
+                <li class="uk-display-inline-block"><a href="">臺大景福基金會</a></li>
+                <li class="uk-display-inline-block"><a href="">校友會聯絡人名單</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">相關連結</li>
+                <li class="uk-display-inline-block"><a href="">相關連結</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">Q &amp; A</li>
+                <li class="uk-display-inline-block"><a href="">Q &amp; A</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+          <div class="address uk-width-large-2-3">
+            <p class="uk-padding-remove uk-margin-small">Copyright ©2013 BY National Taiwan University, College of Medicine</p>
+            <p class="uk-padding-remove uk-margin-small">No.1 Jen Ai road section 1 Taipei 100 Taiwan R.O.C.</p>
+            <p class="uk-padding-remove uk-margin-small">地址：10051 台北市中正區仁愛路一段一號</p>
+            <p class="uk-padding-remove uk-margin-small">電話：+886-2-23123456</p>
+            <p class="uk-padding-remove uk-margin-small">E-mail：<a href="mailto:mcdean@ntu.edu.tw">mcdean@ntu.edu.tw</a></p>
+            <p class="uk-padding-remove uk-margin-small">網頁負責人：江堤莊&nbsp;&nbsp;|&nbsp;&nbsp;更新日期：<span class="date">2017/04/21</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="linkline" href="http://www.ntu.edu.tw/copyright.html">隱私權及資訊安全政策</a></p>
+          </div>
+          <div class="uk-position-relative uk-width-large-1-3">
+            <div class="socialLinks">
+              <a class="uk-margin-right uk-margin-bottom" href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20170428143426"><img src="img/wcagAA.jpg" alt=""></a>
+              <div class="uk-display-inline-block">
+                <a class="paddingL_medium paddingR_medium uk-border-rounded uk-margin-right" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <i class="far fa-map"></i>
+                      <i class="fa-inverse fas fa-map-marker-alt" data-fa-transform="shrink-10"></i>
+                    </span>
+                  </div>
+                </a>
+                <a class="paddingL_medium paddingR_medium uk-border-rounded uk-margin-right" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <!-- <i class="fas fa-square"></i> -->
+                      <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 up-5" style="font-weight:900">my</span>
+                    <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 down-2" style="font-weight:900; font-family: Arial !important;">NTU</span>
+                    </span>
+                  </div>
+                </a>
+                <a class="paddingL_medium paddingR_medium uk-border-rounded" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <!-- <i class="fas fa-square"></i> -->
+                      <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 left-8" style="font-weight:900">i</span>
+                    <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 right-1" style="font-weight:900; font-family: Arial !important;">NTU</span>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/core/scrollspy.min.js"></script>
+  <script src="js/core/smooth-scroll.min.js"></script>
+  <script src="js/core/dropdown.min.js"></script>
+  <script src="js/core/tab.min.js"></script>
+  <script src="js/components/accordion.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+  <script src="js/components/slider.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/slideshow-fx.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="js/mobile-chrome-vh-fix.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  // fix 100 vh in Android Chrome
+  var vhFix = new VHChromeFix([{
+    selector: '.fullViewH',
+    vh: 100
+  }]);
+  </script>
+</body>
+
+</html>

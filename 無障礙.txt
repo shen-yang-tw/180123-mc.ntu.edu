@@ -1,0 +1,21 @@
+<ul class="uk-pagination">
+  <li class="uk-disabled"><span title="first page"><i class="uk-icon-angle-double-left"></i></span></li>
+  <li class="uk-disabled"><span title="previous page"><i class="uk-icon-angle-left"></i></span></li>
+  <li class="uk-active"><span>1</span></li>
+  <li><a href="#">2</a></li>
+  <li><span>...</span></li>
+  <li><a href="#">10</a></li>
+  <li><a href="#" title="next page"><i class="uk-icon-angle-right"></i></a></li>
+  <li><a href="#" title="last page"><i class="uk-icon-angle-double-right"></i></a></li>
+</ul>
+
+<ul class="uk-pagination">
+  <li class="uk-disabled"><span title="首頁"><i class="uk-icon-angle-double-left"></i></span></li>
+  <li class="uk-disabled"><span title="上一頁"><i class="uk-icon-angle-left"></i></span></li>
+  <li class="uk-active"><span>1</span></li>
+  <li><a href="#">2</a></li>
+  <li><span>...</span></li>
+  <li><a href="#">10</a></li>
+  <li><a href="#" title="下一頁"><i class="uk-icon-angle-right"></i></a></li>
+  <li><a href="#" title="尾頁"><i class="uk-icon-angle-double-right"></i></a></li>
+</ul>

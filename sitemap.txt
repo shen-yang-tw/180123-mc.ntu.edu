@@ -1,0 +1,2 @@
+<div class="uk-container uk-container-center">
+      <div id="sitemap" class="uk-accordion uk-margin" data-uk-accordion="{showfirst: false}">

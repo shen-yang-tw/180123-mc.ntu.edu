@@ -1,0 +1,59 @@
+﻿【組織架構】
+１［左上角logo］
+<a class="logo" href="Index.action"><img alt="國立臺灣大學醫學院" title="國立臺灣大學醫學院" src="/ntu/img/logo.svg"></a>
+
+［改成以下］
+<h1 class="uk-margin-remove"><a class="logo" href="Index.action"><img alt="國立臺灣大學醫學院" title="國立臺灣大學醫學院" src="/ntu/img/logo.svg"></a></h1>
+
+２［第一行下底線標題］
+<h4 class="underline padding_medium">實驗動物中心</h4>
+
+［改成以下］
+<h2 class="underline padding_medium uk-margin-remove">實驗動物中心</h2>
+
+３［訪問首頁］
+<h2 class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-text-large uk-margin-remove uk-padding-remove"><i class="uk-margin-small-right fas fa-arrow-circle-right"></i>訪問首頁</h2>
+
+［改成以下］
+<h3 class="uk-overlay-panel uk-flex uk-flex-center uk-flex-middle uk-text-center uk-text-large uk-margin-remove uk-padding-remove"><i class="uk-margin-small-right fas fa-arrow-circle-right"></i>訪問首頁</h3>
+
+４［關於］
+<h5 class="border color_primary padding_small">關於</h5>
+
+［改成以下］
+<h4 class="border color_primary padding_small">關於</h4>
+
+５［學術著作篇數／研究計畫個數］
+<h2 class="articles color_white uk-margin-remove uk-text-bold">249</h2>
+<h2 class="plans color_white uk-margin-remove uk-text-bold">27</h2>
+
+［改成以下］
+<h5 class="articles fontH2 color_white uk-margin-remove uk-text-bold">249</h5>
+<h5 class="plans fontH2 color_white uk-margin-remove uk-text-bold">27</h5>
+
+
+【論文發表榮譽榜】
+１［第一行下底線標題<h4>］同【組織架構】２修改方式
+
+２［次標題-含左邊直線符號之標題］
+<h5 class="item_stick">2018年6月公布臺大醫學校區論文發表榮譽榜</h5>
+
+［改成以下］
+<h3 class="item_stick">2018年6月公布臺大醫學校區論文發表榮譽榜</h3>
+
+【學術活動】
+１［第一行下底線標題-回列表<h4>］同【組織架構】２修改方式
+
+２［綠色標題］
+<h4 class="color_primary uk-text-bold">第12屆亞太地區拒菸協會交流研討會</h4>
+
+［改成以下］
+<h3 class="color_primary uk-text-bold">第12屆亞太地區拒菸協會交流研討會</h3>
+
+【校園活動】
+１［第一行下底線標題<h4>］同【組織架構】２修改方式
+２［綠色標題］同【學術活動】２修改方式
+
+【組織架構】
+１［第一行下底線標題<h4>］同【組織架構】２修改方式
+２［訪問首頁］同【組織架構】２修改方式

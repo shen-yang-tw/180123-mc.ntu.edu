@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant-TW" xml:lang="zh-Hant">
+<!-- <html xml:lang="zh-Hant" lang="zh-Hant"> -->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>臺大醫學院入口網</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
+  <link rel="stylesheet" href="css/components/accordion.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/dotnav.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/sticky.almost-flat.css" />
+  <link rel="stylesheet" href="css/components/slider.min.css" />
+  <link rel="stylesheet" href="css/components/slidenav.min.css" />
+  <link rel="stylesheet" href="css/components/slideshow.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" class="department fullViewH uk-padding-remove">
+  <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top"><i class="uk-icon-chevron-up"></i></a></div>
+  <div id="header" class="bg_img uk-position-z-index" data-uk-sticky="{top:-50, animation: 'uk-animation-slide-bottom'}">
+    <div class="bg_primary uk-padding-remove">
+      <div class="uk-container uk-container-center">
+        <ul class="topList uk-text-right uk-visible-large">
+          <li class="uk-display-inline-block"><a class="color_white" href="#">網站地圖</a></li>
+          <li class="uk-display-inline-block"><a class="color_white" href="#">臺灣大學</a></li>
+          <li class="uk-display-inline-block"><a class="color_white" href="#">臺大醫院</a></li>
+          <li class="uk-display-inline-block"><a class="color_white" href="#">聯繫我們</a></li>
+          <li class="uk-display-inline-block"><a class="color_white" href="#">English</a></li>
+          <li class="fontsize uk-display-inline-block">
+            <ul class="uk-tab uk-align-right uk-margin-remove" data-uk-tab>
+              <li class="small uk-active"><a class="uk-margin-small-right" href="#" title="small">A</a></li>
+              <li class="medium"><a class="uk-margin-small-right" href="#" title="medium">A+</a></li>
+              <li class="large"><a class="uk-margin-small-right" href="#" title="large">A++</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="bg_white uk-padding-remove">
+      <div class="uk-container uk-container-center">
+        <div id="logoBar" class="marginTB_medium uk-grid uk-grid-small">
+          <div class="uk-width-4-5 uk-width-large-3-5 uk-vertical-align">
+            <div class="uk-vertical-align-middle"><a class="logo" href="#"><img alt="" src="img/logo-size.png"></a></div>
+          </div>
+          <div id="btn_canvas" class="uk-width-1-5 uk-vertical-align uk-text-right uk-hidden-large">
+            <div class="uk-vertical-align-middle"><a href="#" data-uk-offcanvas="{target:'#offcanvas', mode:'slide'}"><i class="uk-icon-bars uk-icon-medium color_primary"></i></a></div>
+          </div>
+          <div class="uk-width-medium-3-5 uk-push-1-5 uk-width-large-2-5 uk-vertical-align uk-text-right">
+            <div id="searchBar" class="uk-form uk-width-1-1 uk-vertical-align-middle uk-margin-small-top">
+              <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+                <div class="uk-width" style="width: calc(100% - 25px);">
+                  <input type="text" title="#" placeholder="系所內搜尋 Site search" class="uk-width-1-1">
+                </div>
+                <div class="uk-width uk-text-left" style="width: 25px;">
+                  <a href="#" class="color_defaultGrey"><i class="fas fa-search" data-fa-transform="down-3"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #logoBar -->
+      </div>
+    </div>
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+          <li class="uk-parent">
+            <a href="#">Parent1</a>
+            <ul class="uk-nav-sub">
+              <li class="uk-nav-header">Title</li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+              <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+              <li class="uk-parent">
+                <a href="#">Parent1-1</a>
+                <ul class="uk-nav-sub">
+                  <li class="uk-nav-header">Title</li>
+                  <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                  <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                  <li class="uk-parent">
+                    <a href="#">Parent1-1-1</a>
+                    <ul class="uk-nav-sub">
+                      <li class="uk-nav-header">Title</li>
+                      <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                      <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                      <li class="uk-parent">
+                        <a href="#">Parent1-1-1-1</a>
+                        <ul class="uk-nav-sub">
+                          <li class="uk-nav-header">Title</li>
+                          <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                          <li class="uk-display-inline-block"><a href="#" class="padding_small">SubItem</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="uk-nav-divider"></li>
+          <li><a href="#">網站地圖</a></li>
+          <li><a href="#">臺灣大學</a></li>
+          <li><a href="#">臺大醫院</a></li>
+          <li><a href="#">聯繫我們</a></li>
+          <li><a href="#">English</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- #offcanvas -->
+    <div class="bg_dark uk-padding-remove">
+      <div id="dropdownMenu" style="min-height: 20px;">
+        <div class="uk-container uk-container-center">
+          <div class="uk-grid uk-grid-collapse" data-uk-grid-margin>
+            <div id="dropMenuFull" class="dropMenu uk-width-1-1">
+              <ul class="uk-nav uk-width-1-1 uk-visible-large">
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">科所簡介</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-parent">
+                              <a class="color_white bg_transparent" href="#">Parent1-1</a>
+                              <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-parent">
+                                  <a class="color_white bg_transparent" href="#">Parent1-1-1</a>
+                                  <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-parent">
+                                      <a class="color_white bg_transparent" href="#">Parent1-1-1-1</a>
+                                      <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                            <li class="uk-parent">
+                              <a class="color_white bg_transparent" href="#">Parent1-1</a>
+                              <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                <li class="uk-parent">
+                                  <a class="color_white bg_transparent" href="#">Parent1-1-1</a>
+                                  <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-parent">
+                                      <a class="color_white bg_transparent" href="#">Parent1-1-1-1</a>
+                                      <ul class="list_horizontal uk-nav-sub uk-padding-remove" data-uk-nav>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                        <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                    <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">公告事項</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">師資陣容</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">課程介紹</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">學生校友</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">招生訊息</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">學生事務</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">文件下載</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">生醫資源</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+                <li class="uk-button-dropdown uk-padding-remove" data-uk-dropdown>
+                  <a class="color_white padding_large" href="#">網路地圖</a>
+                  <div class="uk-dropdown uk-dropdown-bottom">
+                    <div class="uk-container uk-container-center">
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                      <p class="color_white">Title</p>
+                      <ul class="uk-nav-dropdown uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-padding-remove" data-uk-nav>
+                        <li class="uk-parent">
+                          <a class="bg_white marginB_medium" href="#">Parent1</a>
+                          <ul class="uk-nav-sub uk-padding-remove" data-uk-nav>
+                            <li class="uk-display-inline-block"><a href="#" class="color_white padding_small uk-dropdown-close">SubItem</a></li>
+                          </ul>
+                        </li>
+                        <li class="uk-display-inline-block"><a href="#" class="bg_white marginB_medium uk-dropdown-close">Item</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <!-- .uk-button-dropdown -->
+              </ul>
+            </div>
+            <!-- #dropMenuL -->
+          </div>
+        </div>
+      </div>
+      <!-- #dropdownMenu -->
+    </div>
+  </div>
+  <!-- #header -->
+  <div class="slideshow department">
+    <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
+      <ul class="uk-slideshow uk-overlay-active">
+        <li class="uk-display-inline-block">
+          <img src="img/slide1.jpg" alt="">
+          <div class="uk-overlay-panel uk-overlay-bottom uk-animation-slide-bottom color_white">
+            <div class="uk-container uk-container-center">
+              <h4 class="uk-text-bold uk-margin-remove">醫學院120周年院慶</h4>
+            </div>
+          </div>
+        </li>
+        <li class="uk-display-inline-block">
+          <img src="img/slide2.jpg" alt="">
+          <div class="uk-overlay-panel uk-overlay-bottom uk-animation-slide-bottom color_white">
+            <div class="uk-container uk-container-center">
+              <h4 class="uk-text-bold uk-margin-remove">醫學院120周年院慶</h4>
+            </div>
+          </div>
+        </li>
+        <li class="uk-display-inline-block">
+          <img src="img/slide3.jpg" alt="">
+          <!-- <div class="uk-container uk-container-center uk-cover-background uk-position-cover" style="background-image: url(img/slide4.jpg);"></div> -->
+          <div class="uk-overlay-panel uk-overlay-bottom uk-animation-slide-bottom color_white">
+            <div class="uk-container uk-container-center">
+              <h4 class="uk-text-bold uk-margin-remove">醫學院120周年院慶</h4>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+      <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+      <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+        <li data-uk-slideshow-item="0"><a href="#"></a></li>
+        <li data-uk-slideshow-item="1"><a href="#"></a></li>
+        <li data-uk-slideshow-item="2"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- .slideshow -->
+  <div class="bg_grey padding_xlarge">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-width-xlarge-1-3 uk-grid-match" data-uk-grid-margin data-uk-grid-match="{target:'.uk-panel'}" data-uk-scrollspy="{cls:'uk-animation-fade', target:'.uk-panel'}">
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <div class="uk-position-relative">
+              <h5 class="color_white bg_primary padding_small uk-margin-bottom">最新消息</h5>
+            </div>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <div class="uk-position-relative">
+              <h5 class="color_white bg_primary padding_small uk-margin-bottom">活動資訊</h5>
+            </div>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+        <div>
+          <div class="card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <h5 class="font_resize color_white bg_primary padding_small uk-margin-bottom">活動花絮</h5>
+            <div class="slideshow slidesInCard">
+              <div class="uk-slidenav-position" data-uk-slideshow>
+                <ul class="uk-slideshow uk-overlay-active">
+                  <li class="uk-display-inline-block">
+                    <img src="https://picsum.photos/600/500?image=1000" alt="">
+                    <a class="uk-overlay-panel" href="#"></a>
+                    <div class="uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                      <p>105學年度下學期頒獎活動</p>
+                    </div>
+                  </li>
+                  <li class="uk-display-inline-block">
+                    <img src="https://picsum.photos/600/500?image=900" alt="">
+                    <a class="uk-overlay-panel" href="#"></a>
+                    <div class="uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                      <p>105學年度下學期頒獎活動</p>
+                    </div>
+                  </li>
+                  <li class="uk-display-inline-block">
+                    <img src="https://picsum.photos/600/500?image=800" alt="">
+                    <a class="uk-overlay-panel" href="#"></a>
+                    <div class="uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                      <p>105學年度下學期頒獎活動</p>
+                    </div>
+                  </li>
+                  <li class="uk-display-inline-block">
+                    <img src="https://picsum.photos/600/500?image=700" alt="">
+                    <a class="uk-overlay-panel" href="#"></a>
+                    <div class="uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                      <p>105學年度下學期頒獎活動</p>
+                    </div>
+                  </li>
+                  <li class="uk-display-inline-block">
+                    <img src="https://picsum.photos/600/500?image=600" alt="">
+                    <a class="uk-overlay-panel" href="#"></a>
+                    <div class="uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                      <p>105學年度下學期頒獎活動</p>
+                    </div>
+                  </li>
+                </ul>
+                <a href="#" class="uk-slidenav uk-display-block uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                <a href="#" class="uk-slidenav uk-display-block uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+                <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                  <li data-uk-slideshow-item="0"><a href="#"></a></li>
+                  <li data-uk-slideshow-item="1"><a href="#"></a></li>
+                  <li data-uk-slideshow-item="2"><a href="#"></a></li>
+                  <li data-uk-slideshow-item="3"><a href="#"></a></li>
+                  <li data-uk-slideshow-item="4"><a href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- .slideshow -->
+          </div>
+        </div>
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <div class="uk-position-relative">
+              <h5 class="color_white bg_primary padding_small uk-margin-bottom">文件管理</h5>
+            </div>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <h5 class="color_white bg_primary padding_small uk-margin-bottom">常用連結</h5>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a class="linkline uk-width-1-1 uk-margin-small-bottom" href="#">
+              <p class="arrow uk-margin-remove">楓城新聞第xxx期電子報</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+        <div>
+          <div class="card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <h5 class="font_resize color_white bg_primary padding_small uk-margin-bottom">行事曆</h5>
+            <div id="calendar" class="uk-margin-bottom"></div>
+            <!-- #calendar -->
+          </div>
+        </div>
+      </div>
+      <div class="uk-grid uk-grid-small uk-grid-width-medium-1-2 uk-grid-match" data-uk-grid-margin data-uk-grid-match="{target:'.uk-panel'}" data-uk-scrollspy="{cls:'uk-animation-fade', target:'.uk-panel'}">
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <div class="uk-position-relative">
+              <h5 class="color_white bg_primary padding_small uk-margin-bottom">問卷</h5>
+            </div>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+        <div>
+          <div class="font_resize truncating card bg_white uk-panel uk-panel-box box_shadow" style="max-height: 330px !important">
+            <div class="uk-position-relative">
+              <h5 class="color_white bg_primary padding_small uk-margin-bottom">報名</h5>
+            </div>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a class="linkline uk-display-block" href="#">
+              <p class="arrow uk-margin-remove"><span class="paddingR_small">2017-12-30</span>這個活動很不錯，快來參加唷~快來參加唷~快來參加唷~</p>
+            </a>
+            <a href="#" class="no_font_resize more color_primary uk-position-bottom-right"><i class="fas fa-caret-right uk-margin-small-right"></i>More</a>
+          </div>
+        </div>
+      </div>
+      <div class="font_resize card bg_white uk-panel uk-panel-box box_shadow paddingB_large uk-margin uk-margin-bottom-remove">
+        <h5 class="color_white bg_primary padding_small uk-margin-bottom">影音專區</h5>
+        <div class="slideshow slideVideos">
+          <div class="uk-visible-hover uk-slidenav-position" data-uk-slideshow>
+            <ul class="uk-slideshow uk-overlay-active">
+              <li>
+                <div class="aspectRatio">
+                  <video class="uk-width-expand" muted controls>
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="uk-hidden uk-overlay-panel uk-overlay-top paddingL_small paddingR_small">
+                  <p>標題 - 本地影片&lt;Video&gt;格式</p>
+                </div>
+              </li>
+              <li>
+                <div class="aspectRatio">
+                  <iframe class="uk-width-expand" src="https://www.youtube.com/embed/kfXdP7nZIiE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="uk-hidden uk-overlay-panel uk-overlay-bottom paddingL_small paddingR_small">
+                  <p>標題 - Youtube串流&lt;iframe&gt;格式</p>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+            <ul class="uk-hidden uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+              <li data-uk-slideshow-item="0"><a href="#"></a></li>
+              <li data-uk-slideshow-item="1"><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- .slideshow -->
+      </div>
+    </div>
+  </div>
+  <!-- .bg_noise_img -->
+  <div class="padding_xlarge bg_footer">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-users fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">在線人數</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">1233</h5>
+          </div>
+        </div>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-eye fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">今日瀏覽</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">1233</h5>
+          </div>
+        </div>
+        <div class="uk-width-1-3">
+          <div class="customHeight1 bg_whiteOpacity border_remove uk-panel uk-panel-box uk-text-center">
+            <h3 class="uk-margin-small-bottom"><i class="uk-contrast fas fa-chart-bar fa-fw fa-2x"></i></h3>
+            <p class="uk-contrast uk-margin-small">到訪人數</p>
+            <h5 class="google_font uk-text-bold uk-contrast uk-margin-small-top uk-margin-small-bottom uk-position-bottom">14330</h5>
+          </div>
+        </div>
+      </div>
+      <div id="sitemap" class="uk-accordion uk-margin" data-uk-accordion="{showfirst: false}">
+        <div class="uk-accordion-title uk-padding-remove uk-margin-remove bg_darkBlack padding_small border_remove">
+          <p class="uk-text-center uk-margin-remove color_white"><i class="fas fa-caret-down fa-fw"></i></i>網站地圖</p>
+        </div>
+        <div class="uk-accordion-content uk-padding-remove uk-margin-top uk-margin-bottom">
+          <div class="color_white uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-4" data-uk-grid-margin>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">醫學院簡介</li>
+                <li class="uk-display-inline-block"><a href="">組織圖</a></li>
+                <li class="uk-display-inline-block"><a href="">沿革</a></li>
+                <li class="uk-display-inline-block"><a href="">歷屆院長</a></li>
+                <li class="uk-display-inline-block"><a href="">現任院長</a></li>
+                <li class="uk-display-inline-block"><a href="">校地環境</a></li>
+                <li class="uk-display-inline-block"><a href="">前瞻與展望</a></li>
+                <li class="uk-display-inline-block"><a href="">學術研究</a></li>
+                <li class="uk-display-inline-block"><a href="">教學研究</a></li>
+                <li class="uk-display-inline-block"><a href="">學生活動</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">最新消息</li>
+                <li class="uk-display-inline-block"><a href="">最新消息</a></li>
+                <li class="uk-display-inline-block"><a href="">重要演講</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">學術單位</li>
+                <li class="uk-display-inline-block"><a href="">學系</a></li>
+                <li class="uk-display-inline-block"><a href="">學科</a></li>
+                <li class="uk-display-inline-block"><a href="">研究所</a></li>
+                <li class="uk-display-inline-block"><a href="">專業學院</a></li>
+                <li class="uk-display-inline-block"><a href="">研究中心</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">研究中心</li>
+                <li class="uk-display-inline-block"><a href="">整合性研究中心(校級)</a></li>
+                <li class="uk-display-inline-block"><a href="">國際級研究中心</a></li>
+                <li class="uk-display-inline-block"><a href="">第一共同研究室</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">行政單位</li>
+                <li class="uk-display-inline-block"><a href="">教學研究行政單位</a></li>
+                <li class="uk-display-inline-block"><a href="">輔助教學之業務單位</a></li>
+                <li class="uk-display-inline-block"><a href="">行政部門知識管理系統</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">國際交流</li>
+                <li class="uk-display-inline-block"><a href="">國際交流</a></li>
+                <li class="uk-display-inline-block"><a href="">國際事務中心</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">圖書分館</li>
+                <li class="uk-display-inline-block"><a href="">圖書分館</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="uk-list">
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">醫學教育</li>
+                <li class="uk-display-inline-block"><a href="">共同教育及教師培訓中心</a></li>
+                <li class="uk-display-inline-block"><a href="">醫學院課程地圖</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">校友連結</li>
+                <li class="uk-display-inline-block"><a href="">臺大景福基金會</a></li>
+                <li class="uk-display-inline-block"><a href="">校友會聯絡人名單</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">相關連結</li>
+                <li class="uk-display-inline-block"><a href="">相關連結</a></li>
+                <li class="listTitle bg_white color_dark paddingL_small paddingR_small marginT_small marginB_small">Q &amp; A</li>
+                <li class="uk-display-inline-block"><a href="">Q &amp; A</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="uk-grid uk-grid-small" data-uk-grid-margin>
+          <div class="address uk-width-large-2-3">
+            <p class="uk-padding-remove uk-margin-small">Copyright ©2013 BY National Taiwan University, College of Medicine</p>
+            <p class="uk-padding-remove uk-margin-small">No.1 Jen Ai road section 1 Taipei 100 Taiwan R.O.C.</p>
+            <p class="uk-padding-remove uk-margin-small">地址：10051 台北市中正區仁愛路一段一號</p>
+            <p class="uk-padding-remove uk-margin-small">電話：+886-2-23123456</p>
+            <p class="uk-padding-remove uk-margin-small">E-mail：<a href="mailto:mcdean@ntu.edu.tw">mcdean@ntu.edu.tw</a></p>
+            <p class="uk-padding-remove uk-margin-small">網頁負責人：江堤莊&nbsp;&nbsp;|&nbsp;&nbsp;更新日期：<span class="date">2017/04/21</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="linkline" href="http://www.ntu.edu.tw/copyright.html">隱私權及資訊安全政策</a></p>
+          </div>
+          <div class="uk-position-relative uk-width-large-1-3">
+            <div class="socialLinks">
+              <a class="uk-margin-right uk-margin-bottom" href="https://www.handicap-free.nat.gov.tw/Applications/Detail?category=20170428143426"><img src="img/wcagAA.jpg" alt=""></a>
+              <div class="uk-display-inline-block">
+                <a class="paddingL_medium paddingR_medium uk-border-rounded uk-margin-right" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <i class="far fa-map"></i>
+                      <i class="fa-inverse fas fa-map-marker-alt" data-fa-transform="shrink-10"></i>
+                    </span>
+                  </div>
+                </a>
+                <a class="paddingL_medium paddingR_medium uk-border-rounded uk-margin-right" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <!-- <i class="fas fa-square"></i> -->
+                      <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 up-5" style="font-weight:900">my</span>
+                    <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 down-2" style="font-weight:900; font-family: Arial !important;">NTU</span>
+                    </span>
+                  </div>
+                </a>
+                <a class="paddingL_medium paddingR_medium uk-border-rounded" href="#" style="background:#7c7c96;">
+                  <div class="fa-3x">
+                    <span class="fa-layers fa-fw">
+                      <!-- <i class="fas fa-square"></i> -->
+                      <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 left-8" style="font-weight:900">i</span>
+                    <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 right-1" style="font-weight:900; font-family: Arial !important;">NTU</span>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/core/scrollspy.min.js"></script>
+  <script src="js/core/smooth-scroll.min.js"></script>
+  <script src="js/core/dropdown.min.js"></script>
+  <script src="js/core/tab.min.js"></script>
+  <script src="js/components/accordion.min.js"></script>
+  <script src="js/components/sticky.min.js"></script>
+  <script src="js/components/slider.min.js"></script>
+  <script src="js/components/slideshow.min.js"></script>
+  <script src="js/components/slideshow-fx.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="js/mobile-chrome-vh-fix.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  // fix 100 vh in Android Chrome
+  var vhFix = new VHChromeFix([{
+    selector: '.fullViewH',
+    vh: 100
+  }]);
+  </script>
+</body>
+
+</html>
